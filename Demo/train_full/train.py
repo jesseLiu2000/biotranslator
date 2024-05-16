@@ -70,9 +70,9 @@ class EnzymeDataset(Dataset):
     def __len__(self):
         return len(self.sequences)
 
-    def _get_label(self, specific_name):
-        labels = [1 if name in specific_name else 0 for name in self.ec_lst]
-        return labels
+    # def _get_label(self, specific_name):
+    #     labels = [1 if name in specific_name else 0 for name in self.ec_lst]
+    #     return labels
 
     def __getitem__(self, idx):
         sequence = self.sequences[idx]
