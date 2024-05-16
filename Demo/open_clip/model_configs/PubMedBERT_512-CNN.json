@@ -1,0 +1,14 @@
+{
+    "embed_dim": 512,
+    "protein_cfg": {
+        "image_size": 224,
+        "protein_encoder": "CNN"
+    },
+    "text_cfg": {
+        "hf_model_name": "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract",
+        "hf_tokenizer_name": "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract",
+        "proj": "mlp",
+        "pooler_type": "cls_pooler",
+        "context_length": 512
+    }
+}

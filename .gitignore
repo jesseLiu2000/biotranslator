@@ -1,0 +1,10 @@
+train_70.json
+Demo/epoch_64.pt
+Demo/model.pth
+Demo/data/
+Demo/log/
+Demo/wandb/
+Demo/results/
+Demo/train_full/data/
+Demo/train_full/results/
+
